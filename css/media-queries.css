@@ -1,0 +1,119 @@
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1024px) {
+	.fltrtlogn {
+    
+    width: 42%;
+	}
+	
+	.orfltbg {
+   
+    margin: 10px 50px;
+  
+}
+	
+}
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+	
+	body {
+ 
+  font-size: 20px;
+  line-height: 20px;
+
+}
+	
+	.flleft{
+		float:left;
+		clear:both;
+	}
+	
+	.socialfltlft {
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+
+
+.orfltbg {
+    border-right:none;
+    float: none;
+    min-height:80px;
+	clear:both;
+    position: relative;
+}
+
+.orcent {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 50%;
+    color: #707070;
+    font-size: 16px;
+    height: 38px;
+    left: 20%;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 38px;
+}
+
+.fltrtlogn {
+    float: left;
+    padding-top: 60px;
+    width: 100%;
+	margin:auto;
+	margin-left:20px;
+	width: 108%;
+}
+
+.inputfldbg{
+	margin:0 auto;
+	float:left;
+}
+
+.inputfldbg label {
+   clear:both !important;
+     width: 100%;
+}
+.inputfldbg input {
+	width:60%;
+	clear:both !important;
+}
+button.css3button {
+	width:66%;
+}
+
+.inputfldbg select {
+    width: 66%;
+}
+
+.centerdivn{
+	float:left;
+	margin-left:20px;
+clear:both;
+width:100%;
+margin-top:20px;
+margin-bottom:25px;
+}
+	
+}
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+	
+	
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+	
+
+}
