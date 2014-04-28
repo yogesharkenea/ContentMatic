@@ -1,76 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="../../assets/ico/favicon.png">
-<title>ContentMatic</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/media-queries.css" rel="stylesheet" type="text/css">
-</head>
+	<title>Foster</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href ="css/bootstrap.css" rel ="stylesheet" media="screen">
+    <link href ="css/bootstrap.min.css" rel ="stylesheet" media="screen">
+	<link href ="css/style.css" rel ="stylesheet">
+ 	<script src = "js/jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+</head>	
 <body>
-<div id="wrapper">
-<?php include("header.php"); ?>
+<div id="wraper">
+<div class="bannerbg">
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button data-target="#static-navigation-toggle" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/">
+                <h1 class="navbar-brand inline"><span class="logo"><img src="images/logoinner.png"></span></h1>
+            </a>
+        </div>
 
-<div class="main">
+        <div id="static-navigation-toggle" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/setting"><img src="images/settingicon.png"></a></li>
+                <li><a href="/Join">Join</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+<div class="container">
+        
+        
+        <div class="banblodtxtin">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the...</div>
 
-<div class="centerdiv">
-	<h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
-Ipsum has been the industry's standard dummy text ever since the...</h1>
+	<div class="concurbgin">
+    
+    <div class="center-block">
+    <div class="socialiconsletsign">
+    <a href="#" class="twitterbgbtn solbtnselect"><span><img src="images/twittericon.png"></span>Connect Twitter</a>
+    <a href="#" class="facebookbgbtn"><span><img src="images/facebookicon.png"></span>Connect Facebook</a>
+    <a href="#" class="bufferbgbtn"><span><img src="images/buffericon.png"></span>Connect Buffer</a>
+    <a href="#" class="linkedinbgbtn"><span><img src="images/linkedinicon.png"></span>Connect LinkedIn</a>
+    <div class="cb"></div>
+    </div>
+    
+    <div class="sgnupbgrt">
+    <label class="stplbletxt">Enter Email Address</label>
+    <input type="email" autofocus="" required="" placeholder="Your email" class="form-control sgnupfldbg">
+    <label class="stplbletxt">Choose Industry</label>
+    <select name="select" id="select" class="form-control sgnupfldbglist">
+    <option value="Select">Select</option>
+   
+   </select>
+    <span class="quezmark"><img src="images/questionmark.png"></span>
+    
+    <div class="cb"></div>
+    </div>
+    <div class="cb"></div>
+    </div>
+    <div class="center-block">
+    
+    <button type="submit" class="btn btn-lg btn-primary btn-block redbgbtnstp">I’m Ready</button>
+    <div class="cb"></div>
+    </div>
+    
+    
+    <div class="cb"></div>
+    </div>
+	<div class="cb"></div>
+    </div>
+    
+    
+    
+    
+
+
+
+
+<div class="container mainin">
 	
-<div class="innerbox">
-<div class="centerdiv">
-<div class="flleft">
-<ul class="socialfltlft">
-<li><a href="#"><img src="images/connecttwitter.png"></a></li>
-<li><a href="#"><img src="images/connectfacebook.png"></a></li>
-<li><a href="#"><img src="images/connectbuffer.png"></a></li>
-<li><a href="#"><img src="images/connectlinkedin.png"></a></li>
 <div class="cb"></div>
+</div>
+
+<div class="cb"></div>
+</div>
+
+
+
+
+<div class="container">
+<footer class="footertxt">
+<div class="fltleft">Copyright 2014 <a href="#">Foster.</a> All Rights Reserved.</div>
+<div class="footersociallink">
+<ul class="footersociallink">
+<li><a href="#"><img src="images/twitter.png"></a></li>
+<li><a href="#"><img src="images/facebook.png"></a></li>
+<li><a href="#"><img src="images/linkedin.png"></a></li>
 </ul>
 </div>
 
-<div class="fltrtlogn">
-<div class="inputfldbg">
-<label>Enter Email Address</label><br>
-<input name="" type="text" value="your email"><br>
-
-<label>Choose Industry</label><br>
-<label>
-  <select name="select" id="select">
-    <option value="Select">Select</option>
-  </select>
-</label>	
-
 <div class="cb"></div>
-</div>
-
-</div>
-<div class="cb"></div>
-</div>
-<div class="centerdivn">
-<button type="button" name="" value="" class="css3button">Iâ€™m Ready</button>
-<div class="cb"></div>
-</div>
-
+</footer>
 <div class="cb"></div>
 </div>
 
 
-
 <div class="cb"></div>
 </div>
-
-<div class="cb"></div>
-</div>
-
-<div class="cb"></div>
-</div>
-<?php include("footer.php"); ?>
-
-<div class="cb"></div>
-</div>    
 </body>
 </html>
